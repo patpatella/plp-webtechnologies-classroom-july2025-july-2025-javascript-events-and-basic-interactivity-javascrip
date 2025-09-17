@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Web Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Interactive Web Page Assignment</h1>
+    <nav>
+      <a href="#features">Features</a> |
+      <a href="#form">Form</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Part 1: Interactive Features -->
+    <section id="features">
+      <h2>Interactive Features</h2>
+
+      <!-- Feature 1: Light/Dark Mode Toggle -->
+      <button id="themeToggle">Toggle Light/Dark Mode</button>
+
+      <!-- Feature 2: Counter -->
+      <div>
+        <p>Counter: <span id="counterValue">0</span></p>
+        <button id="incrementBtn">Increment</button>
+      </div>
+
+      <!-- Feature 3: Collapsible FAQ -->
+      <div>
+        <button class="faqQuestion">What is JavaScript?</button>
+        <p class="faqAnswer">JavaScript is a programming language for web interactivity.</p>
+      </div>
+    </section>
+
+    <!-- Part 3: Form Section -->
+    <section id="form">
+      <h2>Custom Form Validation</h2>
+      <form id="userForm" novalidate>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+        <small class="error"></small>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+        <small class="error"></small>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter password">
+        <small class="error"></small>
+
+        <button type="submit">Submit</button>
+      </form>
+      <p id="formMessage"></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

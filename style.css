@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .dark-mode {
+    background-color: #333;
+    color: #f9f9f9;
+  }
+  
+  section {
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .faqAnswer {
+    display: none;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.9rem;
+  }
+  
